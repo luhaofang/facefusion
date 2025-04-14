@@ -9,7 +9,7 @@ services:
   - .caches:/facefusion/.caches
   - .jobs:/facefusion/.jobs
   ports:
-  - 7875:7860
+  - 8084:7860
   deploy:
    resources:
     reservations:
