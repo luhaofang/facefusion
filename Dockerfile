@@ -1,5 +1,5 @@
 # 使用带有 CUDA 和 cuDNN 的官方基础镜像
-FROM nvidia/cuda:12.8.1-cudnn-runtime-ubuntu24.04
+FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
 
 # 设置环境变量
 ARG FACEFUSION_VERSION=3.1.2
